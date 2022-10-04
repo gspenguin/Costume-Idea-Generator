@@ -1,4 +1,5 @@
 <template>
+  <h1>Costume Idea Generator</h1>
   Dead man's toes! Dead man's toes!
 </template>
 
