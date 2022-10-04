@@ -1,6 +1,6 @@
 <template>
   <h1>Costume Idea Generator</h1>
-  Dead man's toes! Dead man's toes!
+  Not sure what your halloween Costume should be?
 </template>
 
 <script>
