@@ -23,6 +23,9 @@ export default {
     padding: 0;
     min-height: 90vh
   }
+  input, label {
+    display: block;
+  }
   #app {
     background-color: tan;
     font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -33,5 +36,8 @@ export default {
     padding-top: 60px;
     width: 75%;
     margin: 0 auto;
+  }
+  .field {
+    margin: .5em;
   }
 </style>

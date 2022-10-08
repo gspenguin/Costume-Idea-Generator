@@ -1,14 +1,17 @@
 <template>
   <div class="hello">
     <form>
-      <label>Who is the costume for?</label>
-      <select v-model="group">
-        <option>One Adult</option>
-        <option>Two People</option>
-        <option>Children</option>
-      </select>
+      <div class="field">
+        <label>Who is the costume for?</label>
+        <select v-model="costumeFor">
+          <option>One Adult</option>
+          <option>Two People</option>
+          <option>Children</option>
+        </select>
+      </div>
     </form>
-    <div>You selected {{group}}</div>
+    <div>You selected {{ costumeFor }}</div>
+    <button>Get Costume Idea</button>
   </div>
 </template>
 
@@ -18,6 +21,11 @@ export default {
   props: {
     msg: String,
   },
+  data(): {
+    return {
+      costumeFor: ''
+    }
+  }
 };
 </script>
 
