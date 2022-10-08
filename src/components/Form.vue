@@ -1,20 +1,23 @@
 <template>
   <div class="hello">
     <form>
-      <label>Costume Ideas</label>
-      
+      <label>Who is the costume for?</label>
+      <select>
+        <option>One Adult</option>
+        <option>Two People</option>
+        <option>Children</option>
+      </select>
     </form>
-
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Form',
+  name: "Form",
   props: {
-    msg: String
-  }
-}
+    msg: String,
+  },
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
