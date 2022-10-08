@@ -2,12 +2,13 @@
   <div class="hello">
     <form>
       <label>Who is the costume for?</label>
-      <select>
+      <select v-model="group">
         <option>One Adult</option>
         <option>Two People</option>
         <option>Children</option>
       </select>
     </form>
+    <div>You selected {group}
   </div>
 </template>
 
