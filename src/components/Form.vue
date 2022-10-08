@@ -8,7 +8,7 @@
         <option>Children</option>
       </select>
     </form>
-    <div>You selected {group}
+    <div>You selected {group}</div>
   </div>
 </template>
 
