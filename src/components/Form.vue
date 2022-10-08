@@ -1,7 +1,8 @@
 <template>
   <div class="hello">
     <form>
-      <label>Costume Ideas</lable>
+      <label>Costume Ideas</label>
+      
     </form>
 
   </div>
