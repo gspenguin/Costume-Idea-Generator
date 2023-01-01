@@ -18,7 +18,7 @@ export default {
 
 <style>
   body  {
-    background-color: orange;
+    background-image: url('./assets/pumpkins.jpg');
     margin: 0;
     padding: 0;
     min-height: 90vh
