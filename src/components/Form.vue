@@ -11,7 +11,7 @@
       </div>
     </form>
     <div>You selected {{ costumeFor }}</div>
-    <button>Get Costume Idea</button>
+    <button @click="getCostume">Get Costume Idea</button>
   </div>
 </template>
 
@@ -20,6 +20,11 @@ export default {
   name: "Form",
   props: {
     msg: String,
+  },
+  methods: {
+    getCostume(evt){
+      alert(`Looking for costumes for ${this.costumeFor}`);
+    }
   },
   data() {
     return {
