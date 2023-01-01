@@ -8,7 +8,7 @@
           <option value="one_adult">One Adult</option>
           <option value="two_people">Two People</option>
           <option value="children">Children</option>
-          <option value="group">Children</option>
+          <option value="group">Group</option>
         </select>
       </div>
     </form>
@@ -28,7 +28,7 @@ export default {
     getCostume(){
 
       alert(`Looking for costumes for ${this.costumeFor}`);
-      alert(`How about ${costumes[this.costumesFor][0]}`)
+      alert(`How about ${costumes[this.costumeFor][0]}`)
     }
   },
   data() {
