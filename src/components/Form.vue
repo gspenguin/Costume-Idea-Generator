@@ -1,12 +1,14 @@
+
 <template>
   <div class="hello">
     <form>
       <div class="field">
         <label>Who is the costume for?</label>
         <select v-model="costumeFor">
-          <option>One Adult</option>
-          <option>Two People</option>
-          <option>Children</option>
+          <option value="one_adult">One Adult</option>
+          <option value="two_people">Two People</option>
+          <option value="children">Children</option>
+          <option value="group">Children</option>
         </select>
       </div>
     </form>
@@ -16,6 +18,7 @@
 </template>
 
 <script>
+import costumes from '../costumes.json'
 export default {
   name: "Form",
   props: {
@@ -23,7 +26,9 @@ export default {
   },
   methods: {
     getCostume(){
+
       alert(`Looking for costumes for ${this.costumeFor}`);
+      alert(`How about ${costumes[this.costumesFor][0]}`)
     }
   },
   data() {
