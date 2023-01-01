@@ -22,7 +22,7 @@ export default {
     msg: String,
   },
   methods: {
-    getCostume(evt){
+    getCostume(){
       alert(`Looking for costumes for ${this.costumeFor}`);
     }
   },
