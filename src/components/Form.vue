@@ -26,9 +26,9 @@ export default {
   },
   methods: {
     getCostume(){
-
-      alert(`Looking for costumes for ${this.costumeFor}`);
-      alert(`How about ${costumes[this.costumeFor][0]}`)
+      const items = costumes[this.costumeFor];
+      const costume = items[Math.floor(Math.random()*items.length)];
+      alert(`How about ${costume}`)
     }
   },
   data() {
